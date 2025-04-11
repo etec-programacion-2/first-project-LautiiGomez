@@ -11,5 +11,16 @@ class App {
 }
 
 fun main() {
+    // 1. Variables y tipos de datos básicos
+    // Variables inmutables (val) y mutables (var)
+    val nombre: String = "Kotlin" // Variable inmutable con tipo explícito
+    var edad = 25 // Variable mutable con inferencia de tipo
+    val pi = 3.1416 // Double
+    val esActivo = true // Boolean
+    
+    // 2. Strings y templates
+    println("Hola $nombre") // Interpolación de strings
+    println("Tengo ${edad + 1} años el próximo año") // Expresiones en templates
+    
     println(App().greeting)
 }
